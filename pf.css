@@ -1,0 +1,326 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+
+}
+
+header{
+    background-color: black;
+}
+
+.section-a {
+    background-color: #333;
+}
+
+header nav {
+    height: 15vh;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: left;
+}
+
+header h3 {
+    font-size: 35px;
+    color: forestgreen;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+header ul {
+    display: flex;
+    gap: 80px;
+    list-style: none;
+}
+
+header a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    border-radius: 3.2px;
+    padding: 8px 16px;
+    transition: .2s ease-in;
+    border-bottom: 2px solid forestgreen;
+    overflow: hidden;
+    position: relative;
+}
+
+header a:hover {
+    color: red;
+}
+
+#btn {
+    all: unset;
+    cursor: pointer;
+    display: none;
+}
+
+.container {
+    min-height: 80vh;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+
+img {
+    width: 350px;
+}
+
+.content {
+    display: flex;
+    color: white;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 40%;
+}
+
+.title {
+    letter-spacing: 2px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.sub-title {
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 48px;
+    margin-bottom: 16px;
+}
+
+.sub-title span {
+    font-weight: 700;
+}
+
+
+.button {
+    display: flex;
+    gap: 16px;
+}
+
+.button a {
+    text-decoration: none;
+    background-color: forestgreen;
+    width: 70px;
+    height: 30px;
+    text-align: center;
+    color: white;
+}
+
+/* About */
+
+.section-c {
+    height: 100vh;
+    width: 100%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url(/img/About.jpg) no-repeat center center/cover;
+}
+
+.section-c .wrapper p {
+    width: 60%;
+    height: 70%;
+    color: white;
+    letter-spacing: 2.5px;
+
+}
+
+.section-c h1 {
+    font-size: 65px;
+    margin-bottom: 200px;
+    color: forestgreen;
+    font-family: "Times New Roman, Times, serif";
+    text-decoration: underline;
+    text-underline-offset: 10px;
+}
+
+.section-c p {
+    font-size: 25px;
+    font-family: "Times New Roman, Times, serif";
+}
+
+
+/* Skills */
+
+.section-b {
+     display: flex; 
+    background-color: #333;
+    height: 100vh;
+}
+
+.heading {
+    font-size: 55px;
+    margin-bottom: 100px;
+    color: forestgreen;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+}
+.Technical-bars{
+    color: white;
+    font-size: 20px;
+    position: relative;
+    max-width: 500px;
+    width: 100%;
+    background: black;
+    margin: 0 15px;
+    padding: 10px 20px;
+    border-radius: 7px;
+}
+.Technical-bars:hover{
+    background-color: yellowgreen;
+    transition: 5s;
+}
+#progressbar1{
+    width: 20rem;
+    height: 2rem;
+    
+}
+#progressbar2{
+    width: 20rem;
+    height: 2rem;
+    
+}
+#progressbar3{
+    width: 20rem;
+    height: 2rem;
+    
+}
+#progressbar4{
+    width: 20rem;
+    height: 2rem;
+    
+}
+#progressbar5{
+    width: 20rem;
+    height: 2rem;
+    
+}
+
+
+/* Contact */
+ 
+.Contact{
+    height: 100vh; 
+    background: url(/img/Contact.jpg) no-repeat center center/cover;
+    background-color: black; 
+    color: white;
+    font-family: "Times New Roman, Times, serif";
+    padding: 50px;
+    text-align: center;
+}
+.cont-container{
+    max-width: 800px;
+    margin: 0 auto;
+}
+.cont-container h2{
+    font-size: 36px; 
+    margin-bottom: 40px;
+    color: forestgreen;
+    text-decoration: underline;
+    text-underline-offset: 10px; 
+}
+.cont-wrapper{
+    display: grid;
+    grid-template-columns: repeat(2, 1);
+    grid-gap: 30px;
+}
+.cont-form{
+    text-align: left;
+}
+.cont-form h3{
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: yellowgreen;
+}
+.form-group{
+    margin-bottom: 20px;
+}
+input.textarea{
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    border: none;
+    border-color: #f8f9fa;
+    color: red;
+}
+input:focus
+textarea:focus{
+    outline: none;
+    box-shadow: 0 0 8px;
+}
+button{
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: rgb(227, 237, 23);
+    color: black;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+button:hover{
+    background-color: #45a049;
+}
+.contact-info{
+    text-align: left;
+}
+.contact-info h3{
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: greenyellow;
+}
+.contact-info p{
+    margin-bottom: 10px;
+    color: white;
+}
+.contact-info i{
+    color: forestgreen;
+    margin-right: 10px;
+}
+
+/* footer */
+.footerbottom{
+    background-color: #333;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+.designer{
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
+}
+/* .section-footer{ 
+    display: flex;
+    background-color: #333;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+.socailicons{
+    display: flex;
+    justify-content: center;
+}
+.socailicons a{
+    text-decoration: none;
+    padding: 10%;
+    background-color: yellowgreen;
+    margin: 10px;
+    border-radius: 50px;
+}
+.socailicons a i{
+    font-size: 32px;
+    color: black;
+    opacity: 0.5s;
+}  */
